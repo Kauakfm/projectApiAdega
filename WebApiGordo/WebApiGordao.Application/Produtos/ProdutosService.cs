@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using WebApiGordao.Application.Model;
@@ -192,7 +193,7 @@ namespace WebApiGordao.Application.Produtos
             {
                 UsuarioResponse response = new UsuarioResponse();
                 var objprod = _gordo.tabProdutos.FirstOrDefault(c => c.id == id);
-                if(objprod == null)                 
+                if (objprod == null)
                 {
                     response.mensagem = "Produto não identificado";
                     response.sucesso = false;
@@ -226,25 +227,25 @@ namespace WebApiGordao.Application.Produtos
                     valor = request.valor,
                     tipoId = request.tipoId
                 };
-                if(request.nomeProduto == null)
+                if (request.nomeProduto == null)
                 {
                     response.mensagem = "insira o nome de produto";
                     response.sucesso = false;
                     return response;
                 }
-                if(request.quantidadeMl == null)
+                if (request.quantidadeMl == null)
                 {
                     response.mensagem = "inisira um ml";
                     response.sucesso = false;
                     return response;
                 }
-                if(request.valor == null)
+                if (request.valor == null)
                 {
                     response.mensagem = "insira um valor";
                     response.sucesso = false;
                     return response;
                 }
-                if(request.tipoId == null)
+                if (request.tipoId == null)
                 {
                     response.mensagem = "insira o tipo de produto";
                     response.sucesso = false;
@@ -255,7 +256,7 @@ namespace WebApiGordao.Application.Produtos
 
                 response.mensagem = "Produto inserido com sucesso";
                 response.sucesso = true;
-                return response;    
+                return response;
             }
             catch (Exception)
             {
@@ -264,7 +265,7 @@ namespace WebApiGordao.Application.Produtos
             }
         }
 
-        public List<Usuario> obterUsuarios() 
+        public List<Usuario> obterUsuarios()
         {
             try
             {
@@ -300,11 +301,11 @@ namespace WebApiGordao.Application.Produtos
             {
                 var user = _gordo.Fiado.Where(c => c.idUsuario == idCodigo && c.dataLiquidacao == null).ToList();
                 List<Fiado> fiado = new List<Fiado>();
-                foreach(var item in user)
+                foreach (var item in user)
                 {
                     fiado.Add(new Fiado
                     {
-                        Id =item.id,
+                        Id = item.id,
                         IdUsuario = item.idUsuario,
                         Competencia = item.competencia,
                         DataFiado = item.dataFiado,
@@ -324,5 +325,18 @@ namespace WebApiGordao.Application.Produtos
             }
         }
 
+        public tabProdutos obterProduto(int id)
+        {
+            try
+            {
+                var objProd = _gordo.tabProdutos.FirstOrDefault(c => c.id == id);
+                return objProd;
+
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
     }
 }

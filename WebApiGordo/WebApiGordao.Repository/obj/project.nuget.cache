@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pu9CrcfLm4PntoK76GGhsQ00bvWY2nAdN/05wvt4r/6fiCjWn3qr1TFVOZ2nfhxKWyPpQLVnYjy7TeQ9Zn3oNA==",
+  "dgSpecHash": "xvCogMKFptdd620Ly1PliqNVsY4ALnfhVNRv3m30VJHPBAuBYzzv4jGqEzgsa9E9/bXkwlCvPITVmY0ApQHfzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordao.Repository\\WebApiGordao.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordao.Repository\\WebApiGordao.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaua\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kaua\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

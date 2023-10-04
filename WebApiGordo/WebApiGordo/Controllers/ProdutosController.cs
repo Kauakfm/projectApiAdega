@@ -118,7 +118,20 @@ namespace WebApiGordo.Controllers
                 return BadRequest();
             }
         }
+        [HttpGet]
+        [Route("obterProduto/{id}")]
 
+        public async Task<IActionResult> obterproduto(int id)
+        {
+            var produtoService = new ProdutosService(_gordo);
+            var sucesso = produtoService.obterProduto(id);
+
+            if(sucesso != null)
+            {
+                return Ok(sucesso);
+            }
+            else { return BadRequest(); }
+        }
 
         [HttpPost]
         [Route("Atualizarfoto/{id}")]

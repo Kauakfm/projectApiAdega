@@ -6130,11 +6130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordo\\WebApiGordo.csproj",
+      "projectUniqueName": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordo\\WebApiGordo.csproj",
       "projectName": "WebApiGordo",
-      "projectPath": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordo\\WebApiGordo.csproj",
+      "projectPath": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordo\\WebApiGordo.csproj",
       "packagesPath": "C:\\Users\\Kaua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordo\\obj\\",
+      "outputPath": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6156,8 +6156,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordao.Application\\WebApiGordao.Application.csproj": {
-              "projectPath": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordao.Application\\WebApiGordao.Application.csproj"
+            "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordao.Application\\WebApiGordao.Application.csproj": {
+              "projectPath": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordao.Application\\WebApiGordao.Application.csproj"
             }
           }
         }

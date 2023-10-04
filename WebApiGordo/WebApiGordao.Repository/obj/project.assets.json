@@ -5881,11 +5881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordao.Repository\\WebApiGordao.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordao.Repository\\WebApiGordao.Repository.csproj",
       "projectName": "WebApiGordao.Repository",
-      "projectPath": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordao.Repository\\WebApiGordao.Repository.csproj",
+      "projectPath": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordao.Repository\\WebApiGordao.Repository.csproj",
       "packagesPath": "C:\\Users\\Kaua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kaua\\Documents\\WebApiGordao\\WebApiGordo\\WebApiGordao.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Kaua\\Documents\\projectApiAdega\\WebApiGordo\\WebApiGordao.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
